@@ -14,3 +14,10 @@ Change the below before running this script,
 3. query = your search query
 4. index = elasticsearch index name
 5. doc_type = the type in index
+
+# es_to_R_df.R
+This is a R script to load all the elasticsearch index search response to a R dataframe.
+Change the below before running the script.
+1. es_host and es_port.
+2. body, which is the search query.
+3. index, type
