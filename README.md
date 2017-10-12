@@ -26,5 +26,5 @@ Change the below before running the script.
 1. This is a R script to index a csv file into a elastic search index.
 2. Change the following,
 host_ip, index_name, index_type.
-3. Below is the command to run this cript.
+3. Below is the command to run this script.
 Rscript build_index_from_R_csv.R raw_data.csv
