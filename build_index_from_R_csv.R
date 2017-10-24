@@ -12,7 +12,7 @@ df <- read.csv(file=file_name, header=TRUE, sep=",")
 # import the elastic package
 library("elastic")
 
-host_ip <- '35.203.187.180'
+host_ip <- 'localhost'
 connect(es_host = host_ip, es_port = 9200)
 
 # CSV format
