@@ -1,5 +1,4 @@
-# python_elasticsearch
-scripts for index,search 
+scripts for index, delete, search using R and python.
 
 # build_es_index.py
 1. change host, port, index_name and index_type
