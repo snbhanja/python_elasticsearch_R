@@ -15,6 +15,10 @@ Change the below before running this script,
 4. index = elasticsearch index name
 5. doc_type = the type in index
 
+# delete_index.py
+1. Delete an elasticsearch index using python.
+2. Change the host, port, index_name and index_type before running this script.
+
 # es_to_R_df.R
 This is a R script to load all the elasticsearch index search response to a R dataframe.
 Change the below before running the script.
@@ -28,3 +32,4 @@ Change the below before running the script.
 host_ip, index_name, index_type.
 3. Below is the command to run this script.
 Rscript build_index_from_R_csv.R raw_data.csv
+
